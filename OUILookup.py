@@ -4,7 +4,7 @@ import sys
 import ipaddress #Con esto podremos verificar si la ip pertenece a la misma red o no
 
 #Archivo para la base de datos de manofacturadores.
-DATA_FILE = "manuf.txt"
+DATA_FILE = "https://github.com/JoaquinAmigo/Tarea02-Amigo-Torres-Joaquin/blob/main/manuf"
 
 # Función para obtener los datos de fabricación de una tarjeta de red por IP
 def obtener_datos_por_ip(ip):
