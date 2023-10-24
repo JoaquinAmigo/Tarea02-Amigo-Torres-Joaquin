@@ -5,8 +5,12 @@ import getopt
 import sys
 
 #Archivo para la base de datos de manofacturadores.
+<<<<<<< HEAD
 DATA_FILE = "/home/joak/Tarea02-Amigo-Torres-Joaquin/manuf"
 NETWORK = "192.168.1."
+=======
+DATA_FILE = "https://github.com/JoaquinAmigo/Tarea02-Amigo-Torres-Joaquin/blob/main/manuf"
+>>>>>>> c473dc617f71825b61ede94ebe689add766a8d30
 
 # Función para obtener los datos de fabricación de una tarjeta de red por IP
 def obtener_datos_por_ip(ip):
